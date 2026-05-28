@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif; /* 読みやすいゴシック体 */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex; /* 画面を左右に並べる設定 */
+    height: 100vh; /* 画面いっぱいの高さにする */
+}
+
+.slide-area {
+    width: 50%; /* 左半分 */
+    padding: 40px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+#slide-content {
+    flex-grow: 1; /* 余白を埋める */
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between; /* ボタンを左右に離す */
+    align-items: center;
+    padding-top: 20px;
+    border-top: 2px solid #eeeeee;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer; /* マウスを乗せたら指のマークにする */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.practice-area {
+    width: 50%; /* 右半分 */
+    padding: 20px;
+    background-color: #282c34; /* プログラミング画面っぽい暗めの色 */
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    height: 40%;
+    font-family: monospace; /* プログラミング用の等幅フォント */
+    font-size: 1.2em;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border: 1px solid #555;
+}
+
+iframe {
+    height: 40%;
+    background-color: #ffffff; /* 結果は白背景で確認 */
+    border: none;
+    border-radius: 5px;
+}

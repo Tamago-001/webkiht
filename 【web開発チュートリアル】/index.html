@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>エンジニア育成サイト</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <div class="slide-area">
+            <div style="margin-bottom: 20px;">
+                <select id="chapter-select" style="font-size: 1.1em; padding: 5px;">
+                    <option value="1">第1章：HTMLの基礎</option>
+                    <option value="2">第2章：リストとテーブル</option>
+                    <option value="3">第3章：フォーム</option>
+                    <option value="4">第4章：Webページの構造化</option>
+                    <option value="5">第5章：高度なHTML要素</option>
+                    <option value="6">第6章：実践！Webページの骨組み</option>
+                    <option value="7">第7章：CSSの基本と文字デザイン</option>
+                    <option value="8">第8章：ボックスモデルと余白</option>
+                    <option value="9">第9章：おしゃれな装飾・背景と影</option>
+                    <option value="10">第10章：最強のレイアウト・Flexbox</option>
+                    <option value="11">第11章：JavaScriptの基本とDOM操作</option>
+                    <option value="12">第12章：条件分岐とイベント</option>
+                    <option value="13">第13章：ダイアログとデータの保存</option>
+                    <option value="14">第14章：集大成（HTML+CSS+JSの融合）</option>
+                </select>
+            </div>
+
+            <div id="slide-content">
+                </div>
+            <div class="controls">
+                <button id="prev-btn">前へ</button>
+                <span id="page-num">1-1</span>
+                <button id="next-btn">次へ</button>
+            </div>
+        </div>
+
+        <div class="practice-area">
+            <h3>実践エリア（コードを書いてみよう）</h3>
+            <textarea id="code-editor" placeholder="ここにコードを書きます..."></textarea>
+            <h3>実行結果</h3>
+            <iframe id="result-frame"></iframe>
+        </div>
+    </div>
+    
+    <script src="chapter1.js"></script>
+    <script src="chapter2.js"></script>
+    <script src="chapter3.js"></script>
+    <script src="chapter4.js"></script>
+    <script src="chapter5.js"></script>
+    <script src="chapter6.js"></script>
+    <script src="chapter7.js"></script>
+    <script src="chapter8.js"></script>
+    <script src="chapter9.js"></script>
+    <script src="chapter10.js"></script>
+    <script src="chapter11.js"></script>
+    <script src="chapter12.js"></script>
+    <script src="chapter13.js"></script>
+    <script src="chapter14.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

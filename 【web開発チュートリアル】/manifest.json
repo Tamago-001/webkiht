@@ -1,0 +1,13 @@
+{
+  "background_color": "#cdffc2",
+  "description": "エンジニアを育成するアプリです。",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "エンジニア育成",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "エンジニア",
+  "start_url": "https://tamago-001.github.io/web/",
+  "theme_color": "#e75959",
+  "lang": "ja"
+}

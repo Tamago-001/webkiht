@@ -1,0 +1,12 @@
+const chapter3 = [
+    { id: "3-1", title: "フォームの枠組み", content: "ユーザーに文字を入力してもらったり、ボタンを押してもらったりする機能を「フォーム」と呼びます。<br>フォームの全体は <b>formタグ</b> で囲みます。<br><br>まずは右側で空のformタグを確認しましょう。", initialCode: "<form>\n    \n    \n</form>" },
+    { id: "3-2", title: "1行のテキスト入力", content: "文字を入力する枠を作るには <b>inputタグ</b> を使います。<br>type属性を <b>\"text\"</b> にすると、1行のテキスト入力欄になります。<br><br>右のコードを見て、入力欄ができているか確認しましょう。", initialCode: "<form>\n    名前: <input type=\"text\">\n</form>" },
+    { id: "3-3", title: "パスワード入力", content: "入力した文字を「●●●」のように隠したい場合は、type属性を <b>\"password\"</b> にします。<br><br>右のコードの type を password に書き換えて、文字を入力してみてください。", initialCode: "<form>\n    パスワード: <input type=\"text\">\n</form>" },
+    { id: "3-4", title: "ヒント文字（プレースホルダー）", content: "入力欄の中に薄い文字でヒントを表示するには、<b>placeholder属性</b> を使います。<br><br>右のコードに「例：山田太郎」というヒントを追加してみましょう。", initialCode: "<form>\n    名前: <input type=\"text\" placeholder=\"例：山田太郎\">\n</form>" },
+    { id: "3-5", title: "複数行のテキスト入力", content: "お問い合わせ内容など、複数行の長い文章を入力してもらうには <b>textareaタグ</b> を使います。<br>これはinputと違い、終了タグ(&lt;/textarea&gt;)が必要です。<br><br>右のコードを確認しましょう。", initialCode: "<form>\n    メッセージ:<br>\n    <textarea></textarea>\n</form>" },
+    { id: "3-6", title: "ラジオボタン（1つだけ選択）", content: "複数の選択肢から1つだけ選んでもらうには、type属性を <b>\"radio\"</b> にします。<br>グループにするには、同じ name属性（ここでは gender）をつけます。<br><br>右側で、どちらか1つしか選べないことを確認しましょう。", initialCode: "<form>\n    <input type=\"radio\" name=\"gender\"> 男性\n    <input type=\"radio\" name=\"gender\"> 女性\n</form>" },
+    { id: "3-7", title: "チェックボックス（複数選択）", content: "複数の選択肢から複数選べるようにするには、type属性を <b>\"checkbox\"</b> にします。<br><br>右側で、チェックを入れたり外したりしてみましょう。", initialCode: "<form>\n    興味のある言語:<br>\n    <input type=\"checkbox\"> HTML\n    <input type=\"checkbox\"> CSS\n    <input type=\"checkbox\"> JavaScript\n</form>" },
+    { id: "3-8", title: "ドロップダウンリスト", content: "クリックすると選択肢が下に出てくるメニューを作るには、<b>selectタグ</b> と <b>optionタグ</b> を使います。<br><br>右のコードに「30代」の選択肢（option）を追加してみましょう。", initialCode: "<form>\n    年代:\n    <select>\n        <option>10代</option>\n        <option>20代</option>\n        \n    </select>\n</form>" },
+    { id: "3-9", title: "送信ボタン", content: "入力したデータを送るためのボタンは、type属性を <b>\"submit\"</b> にして作ります。<br>value属性に書いた文字がボタンのラベルになります。<br><br>右側で送信ボタンを確認しましょう。", initialCode: "<form>\n    名前: <input type=\"text\"><br><br>\n    <input type=\"submit\" value=\"送信する\">\n</form>" },
+    { id: "3-10", title: "第3章のまとめテスト！", content: "ここまで学んだフォーム部品を組み合わせて、アンケートフォームを作りましょう！<br><br>【課題】<br>1. formタグの中に書く<br>2. 1行入力（名前）<br>3. ラジオボタン（はい / いいえ）<br>4. 送信ボタン", initialCode: "\n\n\n" }
+];
